@@ -1,0 +1,16 @@
+<template>
+  <section>
+    <h2><i class="fa fa-check"></i> ToDos</h2>
+
+    <div repeat.for="item of todos">
+      <input type="checkbox" checked.bind="item.done">
+      <span css="text-decoration: ${item.done ? 'line-through' : 'none'}">${item.description}</span>
+      <i class="fa fa-close" click.trigger="removeTodo(item)" style="cursor:pointer;"></i>
+    </div>
+
+    <form submit.trigger="addTodo()" style="margin-top: 20px">
+      <input type="text" value.bind="todoDescription" placeholder="add todo here"><button type="submit">Add</button>
+    </form>
+
+  </section>
+</template>

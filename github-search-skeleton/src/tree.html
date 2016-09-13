@@ -1,0 +1,6 @@
+<template>
+  <require from="./tree-node"></require>
+  <div repeat.for="node of nodes">
+    <tree-node node.bind="node" selected-node.two-way="selectedNode"></tree-node>
+  </div>
+</template>

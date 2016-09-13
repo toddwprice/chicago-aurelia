@@ -1,0 +1,8 @@
+<template>
+  <div class="node-name ${selectedClass}" click.trigger="selectNode()">
+    ${node.node_name}
+  </div>
+  <div class="children" repeat.for="child of node.children">
+    <tree-node node.bind="child" selected-node.two-way="selectedNode"></tree-node>
+  </div>
+</template>

@@ -1,0 +1,13 @@
+<template>
+  <require from="nav-bar.html"></require>
+  <require from="./app.css"></require>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <require from="font-awesome/css/font-awesome.css"></require>
+  <require from="pikaday/css/pikaday.css"></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host">
+    <router-view></router-view>
+  </div>
+</template>

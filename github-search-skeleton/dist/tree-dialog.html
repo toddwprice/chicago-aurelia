@@ -1,0 +1,20 @@
+<template>
+  <require from="tree"></require>
+  <require from="aurelia-dialog/dialog.css"></require>
+  <ai-dialog>
+    <ai-dialog-header>
+      <b>Select Node</b>
+    </ai-dialog-header>
+
+    <ai-dialog-body>
+      <div style="max-height:450px;overflow:auto;">
+        <tree selected-node.two-way="folder"></tree>
+      </div>
+    </ai-dialog-body>
+
+    <ai-dialog-footer>
+      <button class="btn btn-default" click.trigger="controller.cancel()">Cancel</button>
+      <button class="btn btn-primary" click.trigger="controller.ok(folder)">OK</button>
+    </ai-dialog-footer>
+  </ai-dialog>
+</template>
