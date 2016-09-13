@@ -759,7 +759,7 @@ define('resources/elements/my-textbox',['exports', 'aurelia-framework'], functio
     initializer: null
   })), _class);
 });
-define('aurelia-dialog/ai-dialog',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/ai-dialog',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -777,7 +777,7 @@ var AiDialog = exports.AiDialog = (_dec = (0, _aureliaTemplating.customElement)(
 }) || _class) || _class);
 });
 
-define('aurelia-dialog/ai-dialog-header',['require','exports','module','aurelia-templating','./dialog-controller'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/ai-dialog-header',['require','exports','module','aurelia-templating','./dialog-controller'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -799,7 +799,7 @@ var AiDialogHeader = exports.AiDialogHeader = (_dec = (0, _aureliaTemplating.cus
 }, _class2.inject = [_dialogController.DialogController], _temp)) || _class) || _class);
 });
 
-define('aurelia-dialog/dialog-controller',['require','exports','module','./lifecycle','./dialog-result'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/dialog-controller',['require','exports','module','./lifecycle','./dialog-result'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -868,7 +868,7 @@ var DialogController = exports.DialogController = function () {
 }();
 });
 
-define('aurelia-dialog/lifecycle',['require','exports','module'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/lifecycle',['require','exports','module'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -893,7 +893,7 @@ function invokeLifecycle(instance, name, model) {
 }
 });
 
-define('aurelia-dialog/dialog-result',['require','exports','module'],function (require, exports, module) {"use strict";
+define('aurelia-dialog/dist/commonjs/dialog-result',['require','exports','module'],function (require, exports, module) {"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -911,7 +911,7 @@ var DialogResult = exports.DialogResult = function DialogResult(cancelled, outpu
 };
 });
 
-define('aurelia-dialog/ai-dialog-body',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/ai-dialog-body',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -929,7 +929,7 @@ var AiDialogBody = exports.AiDialogBody = (_dec = (0, _aureliaTemplating.customE
 }) || _class) || _class);
 });
 
-define('aurelia-dialog/ai-dialog-footer',['require','exports','module','aurelia-templating','./dialog-controller'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/ai-dialog-footer',['require','exports','module','aurelia-templating','./dialog-controller'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1030,7 +1030,7 @@ var AiDialogFooter = exports.AiDialogFooter = (_dec = (0, _aureliaTemplating.cus
 })), _class2)) || _class) || _class);
 });
 
-define('aurelia-dialog/attach-focus',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/attach-focus',['require','exports','module','aurelia-templating'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1066,7 +1066,7 @@ var AttachFocus = exports.AttachFocus = (_dec = (0, _aureliaTemplating.customAtt
 }(), _class2.inject = [Element], _temp)) || _class);
 });
 
-define('aurelia-dialog/dialog-configuration',['require','exports','module','./renderer','./dialog-renderer','./dialog-options','aurelia-pal'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/dialog-configuration',['require','exports','module','./renderer','./dialog-renderer','./dialog-options','aurelia-pal'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1147,7 +1147,7 @@ var DialogConfiguration = exports.DialogConfiguration = function () {
 }();
 });
 
-define('aurelia-dialog/renderer',['require','exports','module'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/renderer',['require','exports','module'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1176,7 +1176,7 @@ var Renderer = exports.Renderer = function () {
 }();
 });
 
-define('aurelia-dialog/dialog-renderer',['require','exports','module','./dialog-options','aurelia-pal','aurelia-dependency-injection'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/dialog-renderer',['require','exports','module','./dialog-options','aurelia-pal','aurelia-dependency-injection'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1382,7 +1382,7 @@ function centerDialog(modalContainer) {
 }
 });
 
-define('aurelia-dialog/dialog-options',['require','exports','module'],function (require, exports, module) {"use strict";
+define('aurelia-dialog/dist/commonjs/dialog-options',['require','exports','module'],function (require, exports, module) {"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1395,7 +1395,7 @@ var dialogOptions = exports.dialogOptions = {
 };
 });
 
-define('aurelia-dialog/dialog-service',['require','exports','module','aurelia-metadata','aurelia-dependency-injection','aurelia-templating','./dialog-controller','./renderer','./lifecycle','./dialog-result'],function (require, exports, module) {'use strict';
+define('aurelia-dialog/dist/commonjs/dialog-service',['require','exports','module','aurelia-metadata','aurelia-dependency-injection','aurelia-templating','./dialog-controller','./renderer','./lifecycle','./dialog-result'],function (require, exports, module) {'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true

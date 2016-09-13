@@ -118,8 +118,7 @@
             "name": "font-awesome",
             "path": "../node_modules/font-awesome",
             "resources": [
-              "css/font-awesome.css",
-              "fonts/**/*.{otf,eot,svg,ttf,woff,woff2}"
+              "css/font-awesome.css"
             ]
           },
           "jquery",
